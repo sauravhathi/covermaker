@@ -8,7 +8,9 @@ Create beautiful cover images for your next blog post
 
 ## Screenshots
 
-![Screenshot](https://raw.githubusercontent.com/raulfdm/cover-maker/master/screenshot.png)
+![image](https://user-images.githubusercontent.com/61316762/215318993-6f36eb66-7ed5-4a01-b7b4-5f093622d066.png)
+
+![image](https://user-images.githubusercontent.com/61316762/215318995-80964f72-7532-44a0-af81-56ea99bf0afb.png)
 
 ## Features
 
