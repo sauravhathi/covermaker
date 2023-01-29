@@ -17,7 +17,7 @@ export default function Home() {
       title: 'Why nextjs is awesome?',
       author: 'Saurav Hathi',
       avatar: 'https://avatars.githubusercontent.com/u/61316762?v=4',
-      cover: '/images/default.webp',
+      cover: './images/default.webp',
       coverColor: '#fff',
       opacity: 0,
       padding: 0,
@@ -251,7 +251,7 @@ export default function Home() {
                     e => setDefaultData([
                       {
                         ...defaultData[0],
-                        cover: e.target.checked ? '' : '/images/default.webp'
+                        cover: e.target.checked ? '' : './images/default.webp'
                       }
                     ])
                   }
