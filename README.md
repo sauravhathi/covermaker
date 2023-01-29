@@ -4,7 +4,7 @@ Create beautiful cover images for your next blog post
 
 ## Demo
 
-[https://cover-maker.now.sh](https://cover-maker.now.sh)
+### [https://github.com/sauravhathi/cover-maker](https://sauravhathi.github.io/cover-maker)
 
 ## Screenshots
 
