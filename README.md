@@ -4,7 +4,7 @@ Create beautiful cover images for your next blog post
 
 ## Demo
 
-### [https://sauravhathi.github.io/cover-maker](https://sauravhathi.github.io/cover-maker)
+### https://covermaker.vercel.app/
 
 ## Screenshots
 
