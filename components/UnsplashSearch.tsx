@@ -14,10 +14,10 @@ export default function UnsplashSearch(props: { defaultData: any, setDefaultData
 
     // debounce search query to prevent api call on every keypress
     const debouncedSearchTerm = useDebounce(searchQuery, 500);
-
+    // process.env.NEXT_PUBLIC_UNSPLASH_ACCESS_KEY,
     // api config for unsplash
     const api = createApi({
-        accessKey: `${process.env.NEXT_PUBLIC_UNSPLASH_ACCESS_KEY}`,
+        accessKey: `${process.env.NEXT_PUBLIC_UNSPLASH_ACCESS_KEY}`
     });
 
     // search image from unsplash api on every keypress
@@ -33,7 +33,6 @@ export default function UnsplashSearch(props: { defaultData: any, setDefaultData
                     console.log('error occurred: ', result.errors[0]);
                     return;
                 }
-                console.log("api called", debouncedSearchTerm);
                 setImages(result.response.results.map((img: any) => img.urls.regular));
             });
         } else {
