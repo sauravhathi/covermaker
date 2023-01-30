@@ -1,4 +1,4 @@
-# Cover Maker
+# CoverMaker
 
 Create beautiful cover images for your next blog post
 
@@ -16,7 +16,10 @@ Create beautiful cover images for your next blog post
 
 -   Create beautiful cover images for your next blog post
 -   Customize the image with your own text, colors, opacity, padding, and more
--   Download the image as a PNG file
+-   Search for images from Unsplash
+-   Select unsplash image as cover image onClick
+-   For download unsplash image, double click on image
+-   Download the image as a JPG
 
 ## Tech Stack
 
@@ -38,7 +41,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd cover-maker
+  cd covermaker
 ```
 
 Install dependencies

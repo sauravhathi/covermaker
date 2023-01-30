@@ -14,7 +14,7 @@ export default function UnsplashSearch(props: { defaultData: any, setDefaultData
 
     // debounce search query to prevent api call on every keypress
     const debouncedSearchTerm = useDebounce(searchQuery, 500);
-    // process.env.NEXT_PUBLIC_UNSPLASH_ACCESS_KEY,
+
     // api config for unsplash
     const api = createApi({
         accessKey: `${process.env.NEXT_PUBLIC_UNSPLASH_ACCESS_KEY}`
@@ -40,7 +40,7 @@ export default function UnsplashSearch(props: { defaultData: any, setDefaultData
         }
     }
         , [debouncedSearchTerm]);
-    
+
     // handle download image
     const handleDownload = (item: any) => {
         const a = document.createElement('a');
