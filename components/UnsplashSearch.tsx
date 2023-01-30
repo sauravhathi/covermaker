@@ -15,7 +15,6 @@ export default function UnsplashSearch(props: { defaultData: any, setDefaultData
     // debounce search query to prevent api call on every keypress
     const debouncedSearchTerm = useDebounce(searchQuery, 500);
 
-    console.log(process.env.NEXT_PUBLIC_UNSPLASH_ACCESS_KEY);
     // api config for unsplash
     const api = createApi({
         accessKey: `${process.env.NEXT_PUBLIC_UNSPLASH_ACCESS_KEY}`,
