@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { createApi } from "unsplash-js";
 import Image from "next/image";
-import { Link } from "react-router-dom";
 
 export default function UnsplashSearch(props: { defaultData: any, setDefaultData: any }) {
 
