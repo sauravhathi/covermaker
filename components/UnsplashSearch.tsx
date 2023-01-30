@@ -17,7 +17,7 @@ export default function UnsplashSearch(props: { defaultData: any, setDefaultData
 
     // api config for unsplash
     const api = createApi({
-        accessKey: `${process.env.UNSPLASH_ACCESS_KEY}`,
+        accessKey: `${process.env.NEXT_PUBLIC_UNSPLASH_ACCESS_KEY}`,
     });
 
     // search image from unsplash api on every keypress
